@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.taianemaia</groupId>
-	<artifactId>wsdl-servidor</artifactId>
+	<artifactId>wsdl-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>wsdl-servidor</name>
-	<description>Demo project for Spring Boot</description>
+	<description>SOAP Webservice with Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
