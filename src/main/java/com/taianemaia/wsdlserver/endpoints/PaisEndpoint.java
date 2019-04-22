@@ -11,7 +11,7 @@ import com.taianemaia.wsdlserver.repositories.PaisRepository;
 
 @Endpoint
 public class PaisEndpoint {
-    private static final String NAMESPACE_URI = "http://taianemaia.com.br/wsdlserver/assets";
+    private static final String NAMESPACE_URI = "http://taianemaia.com/wsdlserver/assets";
 
     private final PaisRepository paisRepository;
 
