@@ -1,4 +1,4 @@
-package com.taianemaia.wsdlservidor.config;
+package com.taianemaia.wsdlserver.config;
 
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
@@ -30,7 +30,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
         wsdl11Definition.setPortTypeName("PaisesPort");
         wsdl11Definition.setLocationUri("/ws");
-        wsdl11Definition.setTargetNamespace("http://taianemaia.com.br/wsdlservidor/assets");
+        wsdl11Definition.setTargetNamespace("http://taianemaia.com.br/wsdlserver/assets");
         wsdl11Definition.setSchema(countriesSchema);
         return wsdl11Definition;
     }

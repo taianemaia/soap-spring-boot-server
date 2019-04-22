@@ -2,11 +2,11 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.7 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2019.04.22 às 01:30:37 PM BRT 
+// Gerado em: 2019.04.22 às 02:40:26 PM BRT 
 //
 
 
-package com.taianemaia.wsdlservidor.assets;
+package com.taianemaia.wsdlserver.assets;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -27,7 +27,7 @@ import javax.xml.bind.annotation.XmlType;
  *         &lt;element name="nome" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *         &lt;element name="populacao" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *         &lt;element name="capital" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *         &lt;element name="moeda" type="{http://taianemaia.com/wsdlservidor/assets}moeda"/>
+ *         &lt;element name="moeda" type="{http://taianemaia.com/wsdlserver/assets}moeda"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>

@@ -1,4 +1,4 @@
-package com.taianemaia.wsdlservidor.repositories;
+package com.taianemaia.wsdlserver.repositories;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,8 +8,8 @@ import javax.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 
-import com.taianemaia.wsdlservidor.assets.Moeda;
-import com.taianemaia.wsdlservidor.assets.Pais;
+import com.taianemaia.wsdlserver.assets.Moeda;
+import com.taianemaia.wsdlserver.assets.Pais;
 
 @Component
 public class PaisRepository {

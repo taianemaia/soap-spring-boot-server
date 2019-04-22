@@ -1,17 +1,17 @@
-package com.taianemaia.wsdlservidor.endpoints;
+package com.taianemaia.wsdlserver.endpoints;
 
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import com.taianemaia.wsdlservidor.assets.GetPaisRequest;
-import com.taianemaia.wsdlservidor.assets.GetPaisResponse;
-import com.taianemaia.wsdlservidor.repositories.PaisRepository;
+import com.taianemaia.wsdlserver.assets.GetPaisRequest;
+import com.taianemaia.wsdlserver.assets.GetPaisResponse;
+import com.taianemaia.wsdlserver.repositories.PaisRepository;
 
 @Endpoint
 public class PaisEndpoint {
-    private static final String NAMESPACE_URI = "http://taianemaia.com.br/wsdlservidor/assets";
+    private static final String NAMESPACE_URI = "http://taianemaia.com.br/wsdlserver/assets";
 
     private final PaisRepository paisRepository;
 

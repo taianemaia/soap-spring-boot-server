@@ -1,6 +1,6 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:tns="http://taianemaia.com/wsdlservidor/assets"
-           targetNamespace="http://taianemaia.com/wsdlservidor/assets"
+           xmlns:tns="http://taianemaia.com/wsdlserver/assets"
+           targetNamespace="http://taianemaia.com/wsdlserver/assets"
            elementFormDefault="qualified">
 
     <xs:element name="getPaisRequest">

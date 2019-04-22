@@ -2,11 +2,11 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.7 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2019.04.22 às 01:30:37 PM BRT 
+// Gerado em: 2019.04.22 às 02:40:26 PM BRT 
 //
 
 
-package com.taianemaia.wsdlservidor.assets;
+package com.taianemaia.wsdlserver.assets;
 
 import javax.xml.bind.annotation.XmlRegistry;
 
@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlRegistry;
 /**
  * This object contains factory methods for each 
  * Java content interface and Java element interface 
- * generated in the com.taianemaia.wsdlservidor.assets package. 
+ * generated in the com.taianemaia.wsdlserver.assets package. 
  * <p>An ObjectFactory allows you to programatically 
  * construct new instances of the Java representation 
  * for XML content. The Java representation of XML 
@@ -30,7 +30,7 @@ public class ObjectFactory {
 
 
     /**
-     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.taianemaia.wsdlservidor.assets
+     * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.taianemaia.wsdlserver.assets
      * 
      */
     public ObjectFactory() {

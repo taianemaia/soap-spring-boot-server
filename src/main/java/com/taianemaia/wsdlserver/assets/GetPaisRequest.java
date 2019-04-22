@@ -2,11 +2,11 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.7 
 // Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2019.04.22 às 01:30:37 PM BRT 
+// Gerado em: 2019.04.22 às 02:40:26 PM BRT 
 //
 
 
-package com.taianemaia.wsdlservidor.assets;
+package com.taianemaia.wsdlserver.assets;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -25,7 +25,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="pais" type="{http://taianemaia.com/wsdlservidor/assets}pais"/>
+ *         &lt;element name="nome" type="{http://www.w3.org/2001/XMLSchema}string"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -36,36 +36,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "pais"
+    "nome"
 })
-@XmlRootElement(name = "getPaisResponse")
-public class GetPaisResponse {
+@XmlRootElement(name = "getPaisRequest")
+public class GetPaisRequest {
 
     @XmlElement(required = true)
-    protected Pais pais;
+    protected String nome;
 
     /**
-     * Obtém o valor da propriedade pais.
+     * Obtém o valor da propriedade nome.
      * 
      * @return
      *     possible object is
-     *     {@link Pais }
+     *     {@link String }
      *     
      */
-    public Pais getPais() {
-        return pais;
+    public String getNome() {
+        return nome;
     }
 
     /**
-     * Define o valor da propriedade pais.
+     * Define o valor da propriedade nome.
      * 
      * @param value
      *     allowed object is
-     *     {@link Pais }
+     *     {@link String }
      *     
      */
-    public void setPais(Pais value) {
-        this.pais = value;
+    public void setNome(String value) {
+        this.nome = value;
     }
 
 }
